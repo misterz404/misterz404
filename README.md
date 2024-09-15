@@ -1,8 +1,7 @@
 # Hello, I'm Tamzidan
 
-If you want to know more about me, just click the link below
-[My personal website](https://tamzidan.github.io/tamzidan/)
-The link above is my personal website, featuring my projects, portfolio, blog, contact information, and skills. This website is published and hosted using the [GitHub Pages](https://pages.github.com/)
+If you want to know more about me [click here](https://tamzidan.github.io/tamzidan/)
+it is my personal website, which showcases my projects, portfolio, blog, contact information and skills. This website is published and hosted using [GitHub Pages](https://pages.github.com/)
 
 ## Sections
 
