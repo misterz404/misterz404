@@ -9125,13 +9125,13 @@ const lc = (e, n, t = {}) =>
             className: "face front",
             children: [
               c.jsx("img", {
-                src: "../mrz/images/nobitame.jpg/images/nobitame.jpg",
-                alt: "mrz/images/nobitame.jpg",
+                src: "../misterz404/images/nobitame.jpg/images/nobitame.jpg",
+                alt: "misterz404/images/nobitame.jpg",
                 className: "profile-pic",
               }),
               c.jsx("h2", {
                 className: "name",
-                children: "mrz/images/nobitame.jpg",
+                children: "misterz404/images/nobitame.jpg",
               }),
               c.jsx(Of, {}),
             ],
@@ -9806,7 +9806,7 @@ function Bf() {
     children: [
       c.jsx("audio", {
         ref: t,
-        src: "../mrz/images/nobitame.jpg/music/Cyberpunk.mp3",
+        src: "../misterz404/images/nobitame.jpg/music/Cyberpunk.mp3",
       }),
       c.jsx("div", {
         className: `photo ${e ? "rotating" : ""}`,
@@ -9814,7 +9814,7 @@ function Bf() {
         role: "button",
         "aria-label": e ? "Pause" : "Play",
         children: c.jsx("img", {
-          src: "../mrz/images/nobitame.jpg/images/Disc.png",
+          src: "../misterz404/images/nobitame.jpg/images/Disc.png",
           alt: "Music Control",
         }),
       }),
