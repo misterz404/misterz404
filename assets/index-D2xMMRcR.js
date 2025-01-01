@@ -8994,7 +8994,7 @@ const Of = () => {
       [t, r] = ce.useState(!1),
       [l, i] = ce.useState(0),
       [o, u] = ce.useState(150),
-      s = ["Youtuber"];
+      s = ["Front - end Developer", "UI / UX Design", "Video / Foto Editor"];
     return (
       ce.useEffect(() => {
         const v = setTimeout(() => {
@@ -9125,14 +9125,11 @@ const lc = (e, n, t = {}) =>
             className: "face front",
             children: [
               c.jsx("img", {
-                src: "../misterz404/images/nobitame.jpg/images/nobitame.jpg",
-                alt: "misterz404/images/nobitame.jpg",
+                src: "../misterz404/images/nobita.png",
+                alt: "misterz404",
                 className: "profile-pic",
               }),
-              c.jsx("h2", {
-                className: "name",
-                children: "misterz404/images/nobitame.jpg",
-              }),
+              c.jsx("h2", { className: "name", children: "misterz404" }),
               c.jsx(Of, {}),
             ],
           }),
@@ -9185,7 +9182,7 @@ const lc = (e, n, t = {}) =>
             children: c.jsxs("div", {
               className: "about-container",
               children: [
-                c.jsx("h2", { className: "about-title", children: "About" }),
+                c.jsx("h2", { className: "about-title", children: "About Me" }),
                 c.jsx("p", {
                   className: "about-text",
                   children:
@@ -9209,7 +9206,7 @@ const lc = (e, n, t = {}) =>
                         c.jsx("img", {
                           width: "50",
                           height: "50",
-                          src: "https://img.icons8.com/?size=100&id=23028&format=png&color=000000",
+                          src: "https://img.icons8.com/ios-filled/50/22C3E6/html-5--v2.png",
                           alt: "html-5--v2",
                           className: "grid-image",
                         }),
@@ -9537,7 +9534,7 @@ const lc = (e, n, t = {}) =>
                     c.jsx("img", {
                       width: "50",
                       height: "50",
-                      src: "https://img.icons8.com/?size=100&id=23028&format=png&color=000000",
+                      src: "https://img.icons8.com/ios-filled/50/22C3E6/html-5--v2.png",
                       alt: "html-5--v2",
                       className: "grid-image",
                     }),
@@ -9707,7 +9704,7 @@ const lc = (e, n, t = {}) =>
                         alt: "external-brain-chip-artificial-intelligence-kmg-design-detailed-outline-kmg-design",
                         className: "grid-image",
                       }),
-                      c.jsx("p", { children: "Creative thungkung" }),
+                      c.jsx("p", { children: "Creative Thinking" }),
                     ],
                   }),
                   c.jsxs("div", {
@@ -9804,17 +9801,14 @@ function Bf() {
   return c.jsxs("div", {
     className: "audio-player",
     children: [
-      c.jsx("audio", {
-        ref: t,
-        src: "../misterz404/images/nobitame.jpg/music/Cyberpunk.mp3",
-      }),
+      c.jsx("audio", { ref: t, src: "../misterz404/music/Cyberpunk.mp3" }),
       c.jsx("div", {
         className: `photo ${e ? "rotating" : ""}`,
         onClick: r,
         role: "button",
         "aria-label": e ? "Pause" : "Play",
         children: c.jsx("img", {
-          src: "../misterz404/images/nobitame.jpg/images/Disc.png",
+          src: "../misterz404/images/Disc.png",
           alt: "Music Control",
         }),
       }),
