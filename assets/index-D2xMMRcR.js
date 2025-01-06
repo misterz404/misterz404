@@ -9081,9 +9081,9 @@ const lc = (e, n, t = {}) =>
     const o = new FormData(i);
     return (
       o.append("lib_version", "3.2.0"),
-      o.append("service_id", e),
-      o.append("template_id", n),
-      o.append("user_id", l),
+      o.append("service_854wbp5", e),
+      o.append("template_x15c7qh", n),
+      o.append("rpq3GIRMSfeTdx2i4", l),
       lc("/api/v1.0/email/send-form", o)
     );
   },
