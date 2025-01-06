@@ -9101,8 +9101,8 @@ const lc = (e, n, t = {}) =>
       u = (s) => {
         s.preventDefault(),
           Uf.send(
-            "service_854wbp5",
-            "template_x15c7qh",
+            "service_sajrmmk",
+            "template_60ozub6",
             l,
             "rpq3GIRMSfeTdx2i4"
           ).then(
